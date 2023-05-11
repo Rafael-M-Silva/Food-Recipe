@@ -1,0 +1,7 @@
+.section {
+  width: 99vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding: 60px;
+}
