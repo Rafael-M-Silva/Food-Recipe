@@ -1,7 +1,6 @@
 import Food from "./components/Food";
 import Section from "./components/Section";
 import { useState } from "react";
-import Styles from "./components/form.module.css";
 
 import "./App.css";
 
@@ -32,7 +31,7 @@ function App() {
 
   return (
     <>
-      <div className={Styles.form}>
+      <div className="form">
         <h1>Food</h1>
         <form onSubmit={handleSubmit}>
           <input
